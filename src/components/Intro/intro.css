@@ -68,18 +68,24 @@
 }
 
 @media screen and (max-width:1000px){
-    .bg{
-        right:-5vw;
+    #IntroPara{
+        overflow-x: auto;
+    }
+    #intro{
+        align-content: center;
+        margin-right: -115px;
+        padding: -100px;
     }
     .introContent{
-        font-size: 10vw;
+        font-size: 5vw;
     }
 }
-@media screen and (max-width:375px){
-    .intro{
-        margin-right:5vw;
-    }
-    .introContent{
-        font-size: 10vw;
+@media screen and (max-width:400px){
+    #intro{
+        align-content: center;
+        margin-right: -115px;
+        padding: -200px;
+        height: calc(100vh - 8rem);
+       width: 300vw;
     }
 }
