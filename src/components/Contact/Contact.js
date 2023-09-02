@@ -55,8 +55,8 @@ const Contact = () => {
           <button type="submit" value="send" className="submitBtn">
             Submit
           </button>
-          <div className="links">
-            <img src={insta} alt="Instagram" className="Link" />
+          <div className="links"><a href="https://instagram.com/suriya_._narayanan?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==">
+            <img src={insta} alt="Instagram" className="Link" /></a>
           </div>
         </form>
       </div>
