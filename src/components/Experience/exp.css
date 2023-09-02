@@ -52,3 +52,12 @@
     font-size: 1rem;
     align-content: flex-start ;
 }
+@media screen and (max-width:400px){
+    #Experience{
+        align-content: center;
+        margin-right: -115px;
+        padding: -200px;
+        height: calc(100vh - 8rem);
+       width: 300vw;
+    }
+}
