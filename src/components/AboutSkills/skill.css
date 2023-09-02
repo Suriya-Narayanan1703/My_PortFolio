@@ -57,3 +57,13 @@
        width: 300vw;
     }
 }
+
+@media screen and (max-width:500px){
+    #skills{
+        align-content: center;
+        margin-right: -115px;
+        padding: -200px;
+        height: calc(100vh - 8rem);
+       width: 300vw;
+    }
+}
